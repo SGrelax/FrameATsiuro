@@ -22,7 +22,7 @@ public class DriverFactory {
     private static WebDriver driver;
 
     private static WebDriver setUpDriver(){
-        System.setProperty("webdriver.chrome.driver", "C:\\sele\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Program Files\\Cromedrivesg\\chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-notifications");
         driver = new ChromeDriver(options);

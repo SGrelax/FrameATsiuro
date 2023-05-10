@@ -8,8 +8,8 @@ public class SearchResultPage extends BasePage{
         super(driver);
     }
     private static class Locators{
-        private final static By h1Element = By.tagName("h1");
-        private final static By labelElement = By.xpath("//div[@class='search-page__box-title']/label");
+        private final static By h1Element = By.tagName("form");
+        private final static By labelElement = By.xpath("/html/body/div[1]/div/header/div[2]/div/div[2]/div/form/input");
     }
 
     private static class Label{
